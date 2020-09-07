@@ -1,0 +1,57 @@
+{
+    "amigosDB":{
+        "infoJson":"JSON para DB en Firebase que guarda mis Amigos",
+        "fechaCreacion":"20200906",
+        "fechaModificacion":"",
+        "data":[
+            {
+                "id":"0",
+                "name":"Daniela",
+                "apellido":"   ",
+                "alias":"",
+                "edad":"22",
+                "Profecion":"Abogada",
+                "Pasatiempo":"Futbol",
+                "direccion": "",
+                "skills":[
+                    "bailar",
+                    "Discutir",
+                    ""
+                ],
+                "rsumen":"A daniela la conoci en la FES Acatlán en el equipo de futbol."
+            },
+            {
+                "id":"1",
+                "name":"Alejandro",
+                "apellido":"Garcia",
+                "alias":"Meme --> nene --> Franshua NENE",
+                "edad":"25",
+                "Profecion":"Esudiante",
+                "Pasatiempo":"Futbol",
+                "direccion": "",
+                "skills":[
+                    "Comediante",
+                    "Valer madre",
+                    "Amigo"
+                ],
+                "rsumen":"A nene la conoci en la Voca 111 en en canchas."
+            },
+            {
+                "id":"2 ",
+                "name":"Eduardo",
+                "apellido":"Guerrero",
+                "alias":"Eltigueeere",
+                "edad":"25",
+                "Profecion":"Carpintero",
+                "Pasatiempo":"Beisbol",
+                "direccion": "https://goo.gl/maps/cYKB2WudzvHURLHr8",
+                "skills":[
+                    "Bailar",
+                    "Construcion",
+                    "Rapero"
+                ],
+                "rsumen":"Yo mero."
+            }
+        ]
+    }
+}
