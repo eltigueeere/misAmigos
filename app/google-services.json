@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "527599334689",
+    "firebase_url": "https://laloapi.firebaseio.com",
+    "project_id": "laloapi",
+    "storage_bucket": "laloapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527599334689:android:e929d38e78e38c216bba60",
+        "android_client_info": {
+          "package_name": "com.eltigueeere.myfriends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527599334689-5schvu710ndofmupbt655pd2e5mav6n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eltigueeere.myfriends",
+            "certificate_hash": "5c3562e335f2e1099cb9aadf4d4fb0fb0f3be579"
+          }
+        },
+        {
+          "client_id": "527599334689-47g67a16igr23p80h657psddo4gk704b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYvF3LpMb4PKQbmRMtmW9hmlR6DoYeXIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527599334689-47g67a16igr23p80h657psddo4gk704b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

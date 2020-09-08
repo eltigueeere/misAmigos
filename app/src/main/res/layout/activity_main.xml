@@ -33,5 +33,4 @@
         android:background="@color/acenColor"
         android:text="@string/listaAmigos"
         android:textColor="@color/textIconod" />
-
 </LinearLayout>
