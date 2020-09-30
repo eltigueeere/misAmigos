@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addAmigosLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addAmigos.AddAmigos">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/textIconod"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Buscar Dirección por C. P"
+        android:textColor="@color/text_principal"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/inputCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="# C.P"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buscarCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:background="@color/acenColor"
+        android:text="Buscar C.P"
+        android:textColor="@color/textIconod" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/mostrarCP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLaight"
+            android:text="TextView"
+            android:textColor="@color/text_principal"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="57dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

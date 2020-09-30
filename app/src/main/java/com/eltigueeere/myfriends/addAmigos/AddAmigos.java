@@ -40,18 +40,13 @@ public class AddAmigos extends AppCompatActivity {
                 String contacto = inputAmigoContacto.getText().toString();
                 //mDataBase.child("nombreAmigos").setValue(mensaje);
                 Map<String, Object> amigoMap = new HashMap<>();
-                amigoMap.put("Pasatiempo","Pasatiempo");
-                amigoMap.put("Profecion","Profecion");
-                amigoMap.put("alias","alias");
-                amigoMap.put("apellido","apellido");
-                amigoMap.put("direccion","direccion");
-                amigoMap.put("edad","edad");
-                amigoMap.put("id","id");
+                amigoMap.put("pais","MX");
                 amigoMap.put("name",name);
                 amigoMap.put("contacto",contacto);
-                amigoMap.put("rsumen","resumen");
                 mDataBase.child("misAmigos").push().setValue(amigoMap);
                 Toast.makeText(AddAmigos.this, "Amigo Guardado", Toast.LENGTH_SHORT).show();
+                inputNombreAmigo.getText().clear();
+                inputAmigoContacto.getText().clear();
             }
         });
 

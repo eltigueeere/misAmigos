@@ -33,4 +33,20 @@
         android:background="@color/acenColor"
         android:text="@string/listaAmigos"
         android:textColor="@color/textIconod" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/acenColor"
+        android:text="@string/cp"
+        android:textColor="@color/textIconod" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/acenColor"
+        android:text="@string/verMapa"
+        android:textColor="@color/textIconod" />
 </LinearLayout>

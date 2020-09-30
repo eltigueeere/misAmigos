@@ -2,4 +2,7 @@
     <string name="app_name">My friends</string>
     <string name="titulo1">App mis amigos y gustos</string>
     <string name="listaAmigos">Ver lista de amigos</string>
+    <string name="colonias">Ver direciones</string>
+    <string name="cp">Ver dirección</string>
+    <string name="verMapa">Ver mis rutas</string>
 </resources>
